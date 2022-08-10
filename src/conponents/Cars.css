@@ -1,0 +1,22 @@
+
+figure {
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 220px;
+    height: 310px;
+    transition: all .2s ease-in-out;
+    margin: 10px;
+}
+
+figure:hover {
+    height: 330px;
+    box-shadow: 2px 5px 8px #bbbbbb;
+}
+
+figure:hover .description {
+    margin-top: 0px;
+    transition: all .4s ease-in-out;
+}
+
+
+
